@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #34495e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+a
+{
+    color: white;
+}
+
+.nav-logo
+{
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.logo{
+    background-image: url("Cart_Wave_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 5px; 
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box2*/
+
+.deliver{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 13px;
+    margin-bottom: 5px;
+}
+
+.country{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+/*box3*/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 850px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 20px;
+
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #32cd32; 
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111;
+}
+
+/*box4 &box5*/
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+/*box6*/
+
+.navcart i{
+    font-size: 30px;
+}
+
+.navcart{
+    font-size: 0.85rem;
+    font-weight: 70;
+}
+
+/*panel*/
+
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #1abc9c;
+    color:white;
+    align-items: center;/*vertically align*/
+    justify-content: space-evenly;/*horizontally align*/
+}
+
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/*hero-section*/
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #3498db; 
+}
+
+.hero-message{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;/*vertically*/
+    justify-content: center;/*horizontally*/
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-message a{
+    color: #007185;
+}
+
+/*shop-section*/
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: #e6e6fa;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box-image{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #333;
+}
+/*Footer*/
+footer{
+    margin-top: 15px;
+    background: linear-gradient(to right, #2874f0, #36A2EB);
+}
+
+.foot-panel1{
+    background-color: #2874f0; 
+    color:white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color:brown;
+    color:white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    margin-top: 35px;
+}
+
+ul p{
+    font-weight: 200;
+}
+
+.foot-panel3{
+    background-color: #2874f0; 
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image:url("Cart_Wave_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 140px;
+    margin-bottom: 5px;
+}
+
+
+.foot-panel4{
+    background-color: #36A2EB;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+
+.pages{
+    font-size: 0.7rem;
+    padding-top: 25px;
+}
+
+.copyright{
+    margin-top: 5px;
+    font-size: 0.7rem;
+}
+
+.pages a{
+    margin-left: 10px;
+}
+
+/* Login style */
+
